@@ -23,7 +23,7 @@ public class SyncObject {
 		new Thread(){
 			public void run(){
 				ds.f();
-			};
+			}
 		}.start();
 		ds.g();
 	}
